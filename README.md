@@ -3,6 +3,10 @@ Integrante Equipo 6: Ramsés Hernández.
 # near-roadNetworks
 POC para creación de SMART-CONTRACT's NEAR  para cliente e interoperabilidad
 
+Breve contexto:
+
+Realizar cadena de bloques para integridad de información de cruces de casetas de cobro nacioanles entre operadoras, donde la información una vez realizado el cruce, pueda ser enviado a la operadoras que le corresponda el tag con el cual el cliente cruzó; con la auditoria de montos, los datos permanecerán integros, de acuerdo a las normas establecidas por el ente regulador y con el apoyo de tecnologia blockchain a través de protocolo NEAR.
+
 Se logró realizar la carga de datos de inter-operabilidad, además de saldos simulados por incremento, es decir, se trabajará aún en el POC para la carga de SALDOS NEARS y la descarga de datos simulando distintas redes carreteras interactuando con wallet NEAR BC.
 
 Cuenta Master NEAR: gasram.testnet
