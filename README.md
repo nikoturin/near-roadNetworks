@@ -26,14 +26,17 @@ near deploy --accountId new-near-bc.gasram.testnet --wasmFile out/main.wasm
 8.- Se crearon las siguiente funciones:
 
 Funciones HeartBeat para validar comunicación.
+
 hearBeat: near call new-near-bc.gasram.testnet heartBeat '{"value":10}' --account-id gasram.testnet
 getHeartBeat: near view new-near-bc.gasram.testnet getHeartBeat '{}'
 
 Funciones para agregar mount, aunque en este caso solo es un número incremantal, se buscará obtener montos reales de las cuentas de clientes e inter-operabilidad.
+
 setAmount: near call new-near-bc.gasram.testnet setAmount '{"value":2000}' --account-id gasram.testnet
 getAmount: near view new-near-bc.gasram.testnet getAmount '{}'
 
 Funciones una vez validado el monto, se agregan las transacciones por cruce y/o caseta a la Blockchain para emitir los montos enter operadoras.
+
 setTransPass: near call new-near-bc.gasram.testnet setTransPass '{"dataRaw":"{Name:Ramses,Amount:2000,Operator:1}"}' --account-id gasram.testnet
 getTransPass: near view new-near-bc.gasram.testnet getTransPass '{"accountId":"gasram.testnet"}'
 
