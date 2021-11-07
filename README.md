@@ -7,7 +7,10 @@ Breve contexto:
 
 Realizar cadena de bloques para integridad de información de cruces de casetas de cobro nacioanles entre operadoras, donde la información una vez realizado el cruce, el monto que le corresponda a la operadora pueda ser enviado a su infraestructra para pasar a procesos como la "contra-prestación", de acuerdo de los fee establecidos previamente; con la auditoria de montos, los datos permanecerán integros, de acuerdo a las normas establecidas por el ente regulador y con el apoyo de tecnologia blockchain a través de protocolo NEAR.
 
-Se logró realizar la carga de datos de inter-operabilidad, además de saldos simulados por incremento, es decir, se trabajará aún en el POC para la carga de SALDOS NEARS y la descarga de datos simulando distintas redes carreteras interactuando con wallet NEAR BC.
+Workflow draw.io: docs/
+Mockups figma: docs/
+
+Se realizó la carga de datos de inter-operabilidad, además de saldos simulados por incremento, es decir, se trabajará aún en el POC para la carga de SALDOS NEARS y la descarga de datos simulando distintas redes carreteras interactuando con wallet NEAR BC.
 
 Cuenta Master NEAR: gasram.testnet
 
